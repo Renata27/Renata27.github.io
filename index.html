@@ -1,5 +1,5 @@
 <?php
-$dir = "index_slideshow/"; // folder, e.g.: 'images/', same dir as script use a '.'
+$dir = "images/"; // folder, e.g.: 'images/', same dir as script use a '.'
 $myDirectory = opendir($dir);
 while($entryName = readdir($myDirectory)) { $dirArray[] = $entryName; } // get files
 closedir($myDirectory); // close directory
