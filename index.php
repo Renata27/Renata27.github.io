@@ -2,7 +2,7 @@
           
 	    
           <?php
- if ($handle = opendir('./content/Games')) {
+ if ($handle = opendir('./images')) {
    while (false !== ($file = readdir($handle)))
       {
           if ($file != "." && $file != "..")
